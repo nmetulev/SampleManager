@@ -243,3 +243,10 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+*.nuget.targets
+
+*.nuget.props
+
+tools/lib/*
+tools/package*

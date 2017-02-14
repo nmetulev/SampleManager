@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sample.Manager</id>
+    <version>0.0.7</version>
+    <title>SampleManager</title>
+    <authors>Nikola Metulev</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/nmetulev/SampleManager/master/LICENCE</licenseUrl>
+    <projectUrl>https://github.com/nmetulev/SampleManager</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds description UI and GoogleAnalytics tracking to a UWP app sample - should not be used for production apps</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>sample showcase</tags>
+    <dependencies>
+      <dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="5.1.0" />
+      <dependency id="Microsoft.Toolkit.Uwp.UI.Animations" version="1.3.1" />
+      <dependency id="Microsoft.Toolkit.Uwp.UI.Controls" version="1.3.1" />
+      <dependency id="UWP.SDKforGoogleAnalytics.Managed" version="1.5.2" />
+      <dependency id="Win2D.uwp" version="1.20.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\uap10.0\SampleManager\Themes\SampleDescription.xbf" target="lib\uap10.0\SampleManager\Themes\SampleManager.xbf" />
+    <file src="lib\uap10.0\SampleManager\Properties\SampleManager.rd.xml" target="lib\uap10.0\SampleManager\Properties\SampleManager.rd.xml" />
+    <file src="lib\uap10.0\SampleManager\SampleManager.xr.xml" target="lib\uap10.0\SampleManager\SampleManager.xr.xml" />
+    <file src="lib\uap10.0\SampleManager.pri" target="lib\uap10.0\SampleManager.pri" />
+    <file src="lib\uap10.0\SampleManager.dll" target="lib\uap10.0\SampleManager.dll" />
+
+  </files>
+</package>
